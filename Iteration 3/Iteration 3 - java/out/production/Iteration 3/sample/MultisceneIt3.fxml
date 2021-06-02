@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="1.7976931348623157E308" prefWidth="1200.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MultisceneIt3Controller">
+   <children>
+      <MenuBar fx:id="MenubarIt3" VBox.vgrow="NEVER">
+         <menus>
+            <Menu fx:id="Smitteoverblik" mnemonicParsing="false" onAction="#ActionSmittetal" text="Smittetal" />
+            <Menu fx:id="Infektionsrater" mnemonicParsing="false" onAction="#ActionInfektionstal" text="Infektionsrater" />
+            <Menu fx:id="OpdaterRestriktioner" mnemonicParsing="false" onAction="#ActionOpdater" text="Opdater restriktioner" />
+            <Menu fx:id="OmCoronaNet" mnemonicParsing="false" onAction="#ActionCoronaNet" text="Om CoronaNet" />
+         </menus>
+      </MenuBar>
+      <AnchorPane />
+   </children>
+</VBox>
